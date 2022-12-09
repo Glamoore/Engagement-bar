@@ -1,0 +1,42 @@
+{
+    "recommendation_content": [
+      {
+        "title": "Article 1",
+        "text": "The Environmental, Social & Governance of Data Storage",
+        "date": "2022",
+        "images": [
+          {
+            "title": "ESG",
+            "url": "https://connects.world/wp-content/uploads/2021/11/Visual-of-Understand-What-is-ESG-before-you-regret-it-forever-2021-1.jpeg"
+          }
+        ],
+        "base_url": "https://www.ordnancesurvey.co.uk/newsroom/insights/combining-location-data-environmental-social-and-governance-esg",
+        "url": "https://www.ordnancesurvey.co.uk/newsroom/insights/combining-location-data-environmental-social-and-governance-esg"
+      },
+      {
+        "title": "Article 2",
+        "text": "Images - Free for Commercial use",
+        "date": "2022",
+        "images": [
+          {
+            "title": "Green Dots flowing",
+            "url": "https://images.freeimages.com/images/large-previews/22b/green-dots-1162741.jpg"
+          }
+        ],
+        "base_url": "https://www.istockphoto.com/",
+        "url": "https://www.istockphoto.com/"
+      },{
+        "title": "Article 3",
+        "text": "Find out how to turn your readers into... Content Marketing and Banks",
+        "date": "2022",
+        "images": [
+          {
+            "title": "lady with books",
+            "url": "https://www.thereader.org.uk/wp-content/uploads/2020/06/mag-article-iona.png"
+          }
+        ],
+        "base_url": "https://www.thereader.org.uk/reading-for-life-the-reader-magazine/",
+        "url": "https://www.thereader.org.uk/reading-for-life-the-reader-magazine/"
+      }
+    ]
+  }

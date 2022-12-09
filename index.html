@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/efe23c1ae5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="/engagementBar.css" />
+    <link rel="stylesheet" href="/index.css" />
+
+    <title>Concured Engagement Bar</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About the Concured Engagement Bar</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <hgroup>
+        <h1>Header</h1>
+        <h2>Subheader</h2>
+      </hgroup>
+    </header>
+
+    <section>
+      <article>
+        <header>
+          <h1>Article #1</h1>
+        </header>
+        <section>This is the first article.</section>
+      </article>
+      <article>
+        <header>
+          <h1>Article #2</h1>
+        </header>
+        <section>This is the second article.</section>
+      </article>
+    </section>
+    <aside>
+      <section>
+        <h1>Links</h1>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <footer>Footer</footer>
+
+    <div
+      class="concured concured-recommendations"
+      data-concured-ui="bar"
+      data-concured-columns="3"
+      data-concured-scroll="600"
+      aria-live="polite"
+    ></div>
+
+
+    <!-- Scripts -->
+    <script src="/script.js"></script>
+    <script>
+      concured.key = "**Client Key**";
+      concured.id = "**Client ID**";
+      concured.init();
+    </script>
+  </body>
+</html>

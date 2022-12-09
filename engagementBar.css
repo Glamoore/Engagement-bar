@@ -1,0 +1,114 @@
+/* This is for Presention only */
+/* body {
+  padding-bottom: 250px;
+}  */
+/* This is for Presention only */
+
+/* GENERAL STYLES */
+.concured-recommendations {
+  font-size: 62.5%;
+  margin-bottom: 200px;
+}
+
+.concured-recommendations *,
+.concured-recommendations *::before,
+.concured-recommendations *::after {
+  box-sizing: border-box;
+}
+
+.concured-recommendations a {
+  text-decoration: none;
+}
+
+.concured-recommendations .bar {
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  position: fixed;
+  font-size: 1.6rem;
+  background-color: hsl(0deg 0% 96%);
+}
+
+/* HEADER BAR */
+.concured-recommendations .bar-header {
+  display: flex;
+  align-content: center;
+  background-color: hsl(0, 0%, 0%);
+  padding: 0.5em;
+  color: hsl(156, 74%, 48%);
+}
+
+.concured-recommendations .bar-heading {
+  margin: 0;
+  margin-inline-end: auto;
+  font-size: 1.3rem;
+}
+
+.concured-recommendations .bar-toggle {
+  background-color: transparent;
+  border: none;
+}
+
+.concured-recommendations .expand-arrow {
+  width: 1rem;
+  aspect-ratio: 1;
+  pointer-events: none;
+}
+
+.concured-recommendations .collapsable {
+  transition: height 0.4s ease-in-out;
+}
+
+/* RECOMENDATIONS LIST */
+.concured-recommendations .recommendations {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  padding: 1em;
+  list-style: none;
+  overflow-y: scroll;
+  max-height: 250px;
+}
+
+.concured-recommendations .recommendation {
+  position: relative;
+}
+
+/* RECOMENDATIONS LIST - HOVER STATES */
+.concured-recommendations .recommend-link:focus,
+.concured-recommendations .recommend-link:hover {
+  color: hsl(156, 74%, 48%);
+}
+
+.concured-recommendations .recommend-link {
+  text-decoration: none;
+  color: inherit;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    109.6deg,
+    hsl(0, 0%, 0%, 0.7) 11.2%,
+    hsl(0, 2%, 24%, 0.7) 78.9%
+  );
+  height: 50%;
+  color: hsl(0, 0%, 100%);
+  align-items: flex-end;
+  padding: 1em;
+  font-size: 1.2rem;
+}
+
+.concured-recommendations .recommend-link:hover,
+.concured-recommendations .recommend-link:focus {
+  background-color: hsl(0, 0%, 0%);
+  align-items: flex-start;
+}
+
+/* RECOMENDATION LIST - IMAGES */
+.concured-recommendations .recommendation-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
